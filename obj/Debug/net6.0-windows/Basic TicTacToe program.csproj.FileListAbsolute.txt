@@ -1,0 +1,17 @@
+E:\Source\Repos\Basic TicTacToe program\bin\Debug\net6.0-windows\Basic TicTacToe program.exe
+E:\Source\Repos\Basic TicTacToe program\bin\Debug\net6.0-windows\Basic TicTacToe program.deps.json
+E:\Source\Repos\Basic TicTacToe program\bin\Debug\net6.0-windows\Basic TicTacToe program.runtimeconfig.json
+E:\Source\Repos\Basic TicTacToe program\bin\Debug\net6.0-windows\Basic TicTacToe program.dll
+E:\Source\Repos\Basic TicTacToe program\bin\Debug\net6.0-windows\Basic TicTacToe program.pdb
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.csproj.AssemblyReference.cache
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic_TicTacToe_program.Form1.resources
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.csproj.GenerateResource.cache
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.GeneratedMSBuildEditorConfig.editorconfig
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.AssemblyInfoInputs.cache
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.AssemblyInfo.cs
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.csproj.CoreCompileInputs.cache
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.dll
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\refint\Basic TicTacToe program.dll
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.pdb
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\Basic TicTacToe program.genruntimeconfig.cache
+E:\Source\Repos\Basic TicTacToe program\obj\Debug\net6.0-windows\ref\Basic TicTacToe program.dll
