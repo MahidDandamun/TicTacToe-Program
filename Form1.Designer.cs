@@ -174,22 +174,22 @@
             this.lblScoreX.AutoSize = true;
             this.lblScoreX.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblScoreX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.lblScoreX.Location = new System.Drawing.Point(110, 64);
+            this.lblScoreX.Location = new System.Drawing.Point(140, 64);
             this.lblScoreX.Name = "lblScoreX";
-            this.lblScoreX.Size = new System.Drawing.Size(66, 18);
+            this.lblScoreX.Size = new System.Drawing.Size(18, 18);
             this.lblScoreX.TabIndex = 12;
-            this.lblScoreX.Text = "Score1";
+            this.lblScoreX.Text = "0";
             // 
             // lblScoreO
             // 
             this.lblScoreO.AutoSize = true;
             this.lblScoreO.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblScoreO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.lblScoreO.Location = new System.Drawing.Point(289, 64);
+            this.lblScoreO.Location = new System.Drawing.Point(316, 64);
             this.lblScoreO.Name = "lblScoreO";
-            this.lblScoreO.Size = new System.Drawing.Size(70, 18);
+            this.lblScoreO.Size = new System.Drawing.Size(18, 18);
             this.lblScoreO.TabIndex = 13;
-            this.lblScoreO.Text = "Score 2";
+            this.lblScoreO.Text = "0";
             // 
             // lblExit
             // 
@@ -245,11 +245,11 @@
             this.lblScoreDraw.AutoSize = true;
             this.lblScoreDraw.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblScoreDraw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.lblScoreDraw.Location = new System.Drawing.Point(202, 64);
+            this.lblScoreDraw.Location = new System.Drawing.Point(228, 64);
             this.lblScoreDraw.Name = "lblScoreDraw";
-            this.lblScoreDraw.Size = new System.Drawing.Size(70, 18);
+            this.lblScoreDraw.Size = new System.Drawing.Size(18, 18);
             this.lblScoreDraw.TabIndex = 18;
-            this.lblScoreDraw.Text = "Score 3";
+            this.lblScoreDraw.Text = "0";
             // 
             // button1
             // 

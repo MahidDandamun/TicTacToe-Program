@@ -4,6 +4,7 @@ namespace Basic_TicTacToe_program
     {
         Boolean playersequence = true;
         byte moves=0;
+
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +25,7 @@ namespace Basic_TicTacToe_program
                 btn1.Text = "O";
             btn1.Enabled = false;
             playersequence=! playersequence;
-      
+            moves++;
             winner();
         }
 
@@ -36,7 +37,7 @@ namespace Basic_TicTacToe_program
                 btn2.Text = "O";
             btn2.Enabled = false;
             playersequence = !playersequence;
-            
+            moves++;
             winner();
         }
 
@@ -48,7 +49,7 @@ namespace Basic_TicTacToe_program
                 btn3.Text = "O";
             btn3.Enabled = false;
             playersequence = !playersequence;
-       
+            moves++;
             winner();
         }
 
@@ -60,7 +61,7 @@ namespace Basic_TicTacToe_program
                 btn4.Text = "O";
             btn4.Enabled = false;
             playersequence = !playersequence;
-
+            moves++;
             winner();
         }
 
@@ -72,7 +73,7 @@ namespace Basic_TicTacToe_program
                 btn5.Text = "O";
             btn5.Enabled = false;
             playersequence = !playersequence;
-
+            moves++;
             winner();
         }
 
@@ -84,7 +85,7 @@ namespace Basic_TicTacToe_program
                 btn6.Text = "O";
             btn6.Enabled = false;
             playersequence = !playersequence;
-         
+            moves++;
             winner();
         }
 
@@ -96,6 +97,7 @@ namespace Basic_TicTacToe_program
                 btn7.Text = "O";
             btn7.Enabled = false;
             playersequence = !playersequence;
+            moves++;
             winner();
         }
 
@@ -107,6 +109,7 @@ namespace Basic_TicTacToe_program
                 btn8.Text = "O";
             btn8.Enabled = false;
             playersequence = !playersequence;
+            moves++;
             winner();
         }
 
@@ -118,6 +121,7 @@ namespace Basic_TicTacToe_program
                 btn9.Text = "O";
             btn9.Enabled = false;
             playersequence = !playersequence;
+            moves++;
             winner();
         }
         
@@ -150,6 +154,12 @@ namespace Basic_TicTacToe_program
             {
                 MessageBox.Show("Player X is the Winner");
                 pnl1.Enabled=false;
+            }
+            else
+                if(moves==9)
+                {
+                MessageBox.Show("Draw");
+                pnl1.Enabled = false;
             }
         }
     }
