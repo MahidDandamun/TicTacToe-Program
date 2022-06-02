@@ -43,11 +43,11 @@
             this.lblScoreO = new System.Windows.Forms.Label();
             this.lblExit = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnl1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.lblScoreDraw = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn1
@@ -213,22 +213,22 @@
             this.label3.TabIndex = 15;
             this.label3.Text = "Tic-Tac-Toe";
             // 
-            // panel1
+            // pnl1
             // 
-            this.panel1.BackColor = System.Drawing.Color.IndianRed;
-            this.panel1.Controls.Add(this.btn9);
-            this.panel1.Controls.Add(this.btn8);
-            this.panel1.Controls.Add(this.btn7);
-            this.panel1.Controls.Add(this.btn6);
-            this.panel1.Controls.Add(this.btn5);
-            this.panel1.Controls.Add(this.btn4);
-            this.panel1.Controls.Add(this.btn3);
-            this.panel1.Controls.Add(this.btn2);
-            this.panel1.Controls.Add(this.btn1);
-            this.panel1.Location = new System.Drawing.Point(98, 106);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(272, 252);
-            this.panel1.TabIndex = 16;
+            this.pnl1.BackColor = System.Drawing.Color.IndianRed;
+            this.pnl1.Controls.Add(this.btn9);
+            this.pnl1.Controls.Add(this.btn8);
+            this.pnl1.Controls.Add(this.btn7);
+            this.pnl1.Controls.Add(this.btn6);
+            this.pnl1.Controls.Add(this.btn5);
+            this.pnl1.Controls.Add(this.btn4);
+            this.pnl1.Controls.Add(this.btn3);
+            this.pnl1.Controls.Add(this.btn2);
+            this.pnl1.Controls.Add(this.btn1);
+            this.pnl1.Location = new System.Drawing.Point(98, 106);
+            this.pnl1.Name = "pnl1";
+            this.pnl1.Size = new System.Drawing.Size(272, 252);
+            this.pnl1.TabIndex = 16;
             // 
             // label4
             // 
@@ -273,7 +273,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblScoreDraw);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnl1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblExit);
             this.Controls.Add(this.lblScoreO);
@@ -285,7 +285,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
+            this.pnl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,7 +308,7 @@
         private Label lblScoreO;
         private Label lblExit;
         private Label label3;
-        private Panel panel1;
+        private Panel pnl1;
         private Label label4;
         private Label lblScoreDraw;
         private Button button1;
