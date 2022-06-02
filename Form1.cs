@@ -138,8 +138,9 @@ namespace Basic_TicTacToe_program
               (btn1.Text == "O" && btn5.Text == "O" && btn9.Text == "O")|| // Checking for winner diagonally
               (btn3.Text == "O" && btn5.Text == "O" && btn7.Text == "O"))
             {
-                MessageBox.Show("Player O is the Winner");  
+                MessageBox.Show("Player O is the Winner");
                 pnl1.Enabled = false;
+                lblScoreO.Text+=1;
             }
             else if ((btn1.Text == "X" && btn2.Text == "X" && btn3.Text == "X") ||  // Checking for winner horizontally
               (btn4.Text == "X" && btn5.Text == "X" && btn6.Text == "X") ||
@@ -154,12 +155,14 @@ namespace Basic_TicTacToe_program
             {
                 MessageBox.Show("Player X is the Winner");
                 pnl1.Enabled=false;
+                lblScoreX.Text += 1;
             }
             else
                 if(moves==9)
                 {
                 MessageBox.Show("Draw");
                 pnl1.Enabled = false;
+                lblScoreDraw.Text += 1;
             }
         }
     }
