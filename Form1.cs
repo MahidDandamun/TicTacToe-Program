@@ -4,7 +4,7 @@ namespace Basic_TicTacToe_program
     {
         Boolean playersequence = true;
         byte moves=0;
-        int score=0;  
+        short score=0;  
         public Form1()
         {
             InitializeComponent();
@@ -163,8 +163,8 @@ namespace Basic_TicTacToe_program
 
              
             }
-            else
-                if(moves==9)
+            
+            else if(moves==9)
             {
                 MessageBox.Show("Draw");
                 score = short.Parse(lblScoreDraw.Text);
@@ -176,6 +176,9 @@ namespace Basic_TicTacToe_program
 
         private void btnReset_Click(object sender, EventArgs e)  // to just reset the board and continue playing
         {
+         
+            moves = 0;
+            pnl1.Enabled = true; // to enable the panel of tictactoe
             playersequence = true;
             btn1.Text = "";
             btn2.Text = "";
@@ -187,7 +190,6 @@ namespace Basic_TicTacToe_program
             btn8.Text = "";
             btn9.Text = "";
 
-            pnl1.Enabled = true; // to enable the panel of tictactoe
             btn1.Enabled = true; // to enable the buttons again 
             btn2.Enabled = true;
             btn3.Enabled = true;
@@ -197,10 +199,12 @@ namespace Basic_TicTacToe_program
             btn7.Enabled = true;
             btn8.Enabled = true;
             btn9.Enabled = true;
-
+            
             
 
             
         }
+
+      
     }
 }   

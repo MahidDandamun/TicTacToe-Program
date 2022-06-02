@@ -195,7 +195,7 @@
             // 
             this.lblExit.AutoSize = true;
             this.lblExit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblExit.Location = new System.Drawing.Point(439, 4);
+            this.lblExit.Location = new System.Drawing.Point(417, 9);
             this.lblExit.Name = "lblExit";
             this.lblExit.Size = new System.Drawing.Size(30, 32);
             this.lblExit.TabIndex = 14;
@@ -207,7 +207,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.label3.Location = new System.Drawing.Point(12, 417);
+            this.label3.Location = new System.Drawing.Point(2, 492);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 24);
             this.label3.TabIndex = 15;
@@ -225,7 +225,7 @@
             this.pnl1.Controls.Add(this.btn3);
             this.pnl1.Controls.Add(this.btn2);
             this.pnl1.Controls.Add(this.btn1);
-            this.pnl1.Location = new System.Drawing.Point(98, 106);
+            this.pnl1.Location = new System.Drawing.Point(98, 204);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(272, 252);
             this.pnl1.TabIndex = 16;
@@ -257,7 +257,7 @@
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReset.Font = new System.Drawing.Font("Bahnschrift SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnReset.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnReset.Location = new System.Drawing.Point(100, 384);
+            this.btnReset.Location = new System.Drawing.Point(98, 464);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(111, 25);
             this.btnReset.TabIndex = 19;
@@ -270,7 +270,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(25)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(472, 450);
+            this.ClientSize = new System.Drawing.Size(459, 525);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblScoreDraw);
             this.Controls.Add(this.label4);
@@ -286,6 +286,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            
             this.pnl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
