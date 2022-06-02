@@ -199,12 +199,38 @@ namespace Basic_TicTacToe_program
             btn7.Enabled = true;
             btn8.Enabled = true;
             btn9.Enabled = true;
-            
-            
-
-            
         }
 
-      
+        private void btnNewGame_Click(object sender, EventArgs e)
+        {
+            moves = 0;
+            pnl1.Enabled = true; // to enable the panel of tictactoe
+            playersequence = true;
+            btn1.Text = "";
+            btn2.Text = "";
+            btn3.Text = "";
+            btn4.Text = "";
+            btn5.Text = "";
+            btn6.Text = ""; // to clear text
+            btn7.Text = "";
+            btn8.Text = "";
+            btn9.Text = "";
+
+
+            lblScoreDraw.Text = "0"; // to reset scoreboard
+            lblScoreO.Text = "0";
+            lblScoreX.Text = "0";
+
+
+            btn1.Enabled = true; // to enable the buttons again 
+            btn2.Enabled = true;
+            btn3.Enabled = true;
+            btn4.Enabled = true;
+            btn5.Enabled = true;
+            btn6.Enabled = true;
+            btn7.Enabled = true;
+            btn8.Enabled = true;
+            btn9.Enabled = true;
+        }
     }
 }   

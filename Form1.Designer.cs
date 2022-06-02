@@ -47,6 +47,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.lblScoreDraw = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
+            this.btnNewGame = new System.Windows.Forms.Button();
             this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -153,7 +154,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(104, 34);
+            this.label1.Location = new System.Drawing.Point(81, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 18);
             this.label1.TabIndex = 10;
@@ -163,7 +164,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(285, 34);
+            this.label2.Location = new System.Drawing.Point(265, 34);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 18);
             this.label2.TabIndex = 11;
@@ -174,7 +175,7 @@
             this.lblScoreX.AutoSize = true;
             this.lblScoreX.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblScoreX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.lblScoreX.Location = new System.Drawing.Point(140, 64);
+            this.lblScoreX.Location = new System.Drawing.Point(111, 64);
             this.lblScoreX.Name = "lblScoreX";
             this.lblScoreX.Size = new System.Drawing.Size(18, 18);
             this.lblScoreX.TabIndex = 12;
@@ -185,7 +186,7 @@
             this.lblScoreO.AutoSize = true;
             this.lblScoreO.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblScoreO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.lblScoreO.Location = new System.Drawing.Point(316, 64);
+            this.lblScoreO.Location = new System.Drawing.Point(298, 64);
             this.lblScoreO.Name = "lblScoreO";
             this.lblScoreO.Size = new System.Drawing.Size(18, 18);
             this.lblScoreO.TabIndex = 13;
@@ -195,7 +196,7 @@
             // 
             this.lblExit.AutoSize = true;
             this.lblExit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblExit.Location = new System.Drawing.Point(417, 9);
+            this.lblExit.Location = new System.Drawing.Point(391, 9);
             this.lblExit.Name = "lblExit";
             this.lblExit.Size = new System.Drawing.Size(30, 32);
             this.lblExit.TabIndex = 14;
@@ -207,7 +208,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.label3.Location = new System.Drawing.Point(2, 492);
+            this.label3.Location = new System.Drawing.Point(12, 423);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 24);
             this.label3.TabIndex = 15;
@@ -225,7 +226,7 @@
             this.pnl1.Controls.Add(this.btn3);
             this.pnl1.Controls.Add(this.btn2);
             this.pnl1.Controls.Add(this.btn1);
-            this.pnl1.Location = new System.Drawing.Point(98, 204);
+            this.pnl1.Location = new System.Drawing.Point(80, 124);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(272, 252);
             this.pnl1.TabIndex = 16;
@@ -234,7 +235,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(208, 34);
+            this.label4.Location = new System.Drawing.Point(189, 34);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 18);
             this.label4.TabIndex = 17;
@@ -245,7 +246,7 @@
             this.lblScoreDraw.AutoSize = true;
             this.lblScoreDraw.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblScoreDraw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(80)))), ((int)(((byte)(91)))));
-            this.lblScoreDraw.Location = new System.Drawing.Point(228, 64);
+            this.lblScoreDraw.Location = new System.Drawing.Point(209, 64);
             this.lblScoreDraw.Name = "lblScoreDraw";
             this.lblScoreDraw.Size = new System.Drawing.Size(18, 18);
             this.lblScoreDraw.TabIndex = 18;
@@ -257,7 +258,7 @@
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReset.Font = new System.Drawing.Font("Bahnschrift SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnReset.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnReset.Location = new System.Drawing.Point(98, 464);
+            this.btnReset.Location = new System.Drawing.Point(80, 382);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(111, 25);
             this.btnReset.TabIndex = 19;
@@ -265,12 +266,27 @@
             this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
+            // btnNewGame
+            // 
+            this.btnNewGame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(62)))), ((int)(((byte)(72)))));
+            this.btnNewGame.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNewGame.Font = new System.Drawing.Font("Bahnschrift SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNewGame.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnNewGame.Location = new System.Drawing.Point(241, 382);
+            this.btnNewGame.Name = "btnNewGame";
+            this.btnNewGame.Size = new System.Drawing.Size(111, 25);
+            this.btnNewGame.TabIndex = 20;
+            this.btnNewGame.Text = "New Game";
+            this.btnNewGame.UseVisualStyleBackColor = false;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(25)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(459, 525);
+            this.ClientSize = new System.Drawing.Size(430, 473);
+            this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblScoreDraw);
             this.Controls.Add(this.label4);
@@ -286,7 +302,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            
             this.pnl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -314,5 +329,6 @@
         private Label label4;
         private Label lblScoreDraw;
         private Button btnReset;
+        private Button btnNewGame;
     }
 }
