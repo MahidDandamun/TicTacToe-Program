@@ -4,7 +4,7 @@ namespace Basic_TicTacToe_program
     {
         Boolean playersequence = true;
         byte moves=0;
-
+        int score=0;  
         public Form1()
         {
             InitializeComponent();
@@ -139,8 +139,11 @@ namespace Basic_TicTacToe_program
               (btn3.Text == "O" && btn5.Text == "O" && btn7.Text == "O"))
             {
                 MessageBox.Show("Player O is the Winner");
+
+                score = short.Parse(lblScoreO.Text);
+                lblScoreO.Text = (score+1).ToString();
                 pnl1.Enabled = false;
-                lblScoreO.Text+=1;
+
             }
             else if ((btn1.Text == "X" && btn2.Text == "X" && btn3.Text == "X") ||  // Checking for winner horizontally
               (btn4.Text == "X" && btn5.Text == "X" && btn6.Text == "X") ||
@@ -154,16 +157,50 @@ namespace Basic_TicTacToe_program
               (btn3.Text == "X" && btn5.Text == "X" && btn7.Text == "X"))
             {
                 MessageBox.Show("Player X is the Winner");
+                score = short.Parse(lblScoreX.Text);
+                lblScoreX.Text = (score + 1).ToString();
                 pnl1.Enabled=false;
-                lblScoreX.Text += 1;
+
+             
             }
             else
                 if(moves==9)
-                {
+            {
                 MessageBox.Show("Draw");
+                score = short.Parse(lblScoreDraw.Text);
+                lblScoreDraw.Text = (score + 1).ToString();
                 pnl1.Enabled = false;
-                lblScoreDraw.Text += 1;
+             
             }
         }
+
+        private void btnReset_Click(object sender, EventArgs e)  // to just reset the board and continue playing
+        {
+            playersequence = true;
+            btn1.Text = "";
+            btn2.Text = "";
+            btn3.Text = "";
+            btn4.Text = "";
+            btn5.Text = "";
+            btn6.Text = ""; // to clear text
+            btn7.Text = "";
+            btn8.Text = "";
+            btn9.Text = "";
+
+            pnl1.Enabled = true; // to enable the panel of tictactoe
+            btn1.Enabled = true; // to enable the buttons again 
+            btn2.Enabled = true;
+            btn3.Enabled = true;
+            btn4.Enabled = true;
+            btn5.Enabled = true;
+            btn6.Enabled = true;
+            btn7.Enabled = true;
+            btn8.Enabled = true;
+            btn9.Enabled = true;
+
+            
+
+            
+        }
     }
-}
+}   

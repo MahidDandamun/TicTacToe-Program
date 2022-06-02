@@ -46,7 +46,7 @@
             this.pnl1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.lblScoreDraw = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -251,18 +251,19 @@
             this.lblScoreDraw.TabIndex = 18;
             this.lblScoreDraw.Text = "0";
             // 
-            // button1
+            // btnReset
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(62)))), ((int)(((byte)(72)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(178, 383);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 25);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Reset Board";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(62)))), ((int)(((byte)(72)))));
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnReset.Font = new System.Drawing.Font("Bahnschrift SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnReset.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnReset.Location = new System.Drawing.Point(100, 384);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(111, 25);
+            this.btnReset.TabIndex = 19;
+            this.btnReset.Text = "Reset Board";
+            this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // Form1
             // 
@@ -270,7 +271,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(25)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(472, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblScoreDraw);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pnl1);
@@ -311,6 +312,6 @@
         private Panel pnl1;
         private Label label4;
         private Label lblScoreDraw;
-        private Button button1;
+        private Button btnReset;
     }
 }
