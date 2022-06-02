@@ -22,7 +22,7 @@ namespace Basic_TicTacToe_program
             else
                 btn1.Text = "O";
             btn1.Enabled = false;
-            
+            playersequence=! playersequence;
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -32,6 +32,7 @@ namespace Basic_TicTacToe_program
             else
                 btn2.Text = "O";
             btn2.Enabled = false;
+            playersequence = !playersequence;
         }
 
         private void btn3_Click(object sender, EventArgs e)
@@ -41,6 +42,7 @@ namespace Basic_TicTacToe_program
             else
                 btn3.Text = "O";
             btn3.Enabled = false;
+            playersequence = !playersequence;
         }
 
         private void btn4_Click(object sender, EventArgs e)
@@ -50,6 +52,7 @@ namespace Basic_TicTacToe_program
             else
                 btn4.Text = "O";
             btn4.Enabled = false;
+            playersequence = !playersequence;
         }
 
         private void btn5_Click(object sender, EventArgs e)
@@ -59,6 +62,7 @@ namespace Basic_TicTacToe_program
             else
                 btn5.Text = "O";
             btn5.Enabled = false;
+            playersequence = !playersequence;
         }
 
         private void btn6_Click(object sender, EventArgs e)
@@ -68,6 +72,7 @@ namespace Basic_TicTacToe_program
             else
                 btn6.Text = "O";
             btn6.Enabled = false;
+            playersequence = !playersequence;
         }
 
         private void btn7_Click(object sender, EventArgs e)
@@ -77,6 +82,7 @@ namespace Basic_TicTacToe_program
             else
                 btn7.Text = "O";
             btn7.Enabled = false;
+            playersequence = !playersequence;
         }
 
         private void btn8_Click(object sender, EventArgs e)
@@ -86,6 +92,7 @@ namespace Basic_TicTacToe_program
             else
                 btn8.Text = "O";
             btn8.Enabled = false;
+            playersequence = !playersequence;
         }
 
         private void btn9_Click(object sender, EventArgs e)
@@ -94,7 +101,8 @@ namespace Basic_TicTacToe_program
                 btn9.Text = "X";
             else
                 btn9.Text = "O";
-            btn1.Enabled = false;
+            btn9.Enabled = false;
+            playersequence = !playersequence;
         }
     }
 }
