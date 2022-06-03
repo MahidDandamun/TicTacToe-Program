@@ -48,6 +48,7 @@
             this.lblScoreDraw = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnNewGame = new System.Windows.Forms.Button();
+            this.chkboxMusic = new System.Windows.Forms.CheckBox();
             this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -280,12 +281,26 @@
             this.btnNewGame.UseVisualStyleBackColor = false;
             this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
             // 
+            // chkboxMusic
+            // 
+            this.chkboxMusic.AutoSize = true;
+            this.chkboxMusic.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.chkboxMusic.ForeColor = System.Drawing.Color.RosyBrown;
+            this.chkboxMusic.Location = new System.Drawing.Point(340, 431);
+            this.chkboxMusic.Name = "chkboxMusic";
+            this.chkboxMusic.Size = new System.Drawing.Size(81, 18);
+            this.chkboxMusic.TabIndex = 22;
+            this.chkboxMusic.Text = "Bg music";
+            this.chkboxMusic.UseVisualStyleBackColor = true;
+            this.chkboxMusic.CheckedChanged += new System.EventHandler(this.chkboxMusic_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(25)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(430, 473);
+            this.Controls.Add(this.chkboxMusic);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblScoreDraw);
@@ -302,6 +317,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.pnl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -330,5 +346,6 @@
         private Label lblScoreDraw;
         private Button btnReset;
         private Button btnNewGame;
+        private CheckBox chkboxMusic;
     }
 }

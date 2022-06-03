@@ -1,13 +1,20 @@
+using System.Media;
+
 namespace Basic_TicTacToe_program
 {
     public partial class Form1 : Form
     {
+        SoundPlayer player=new SoundPlayer(@"E:\Downloads\Original Tetris theme (Tetris Soundtrack).wav");
+
         Boolean playersequence = true;
         byte moves=0;
         short score=0;  
+
+
         public Form1()
         {
             InitializeComponent();
+           
         }
 
         
@@ -17,6 +24,7 @@ namespace Basic_TicTacToe_program
             this.Close();
         }
 
+       
         private void btn1_Click(object sender, EventArgs e)
         {
             if (playersequence)
@@ -28,7 +36,7 @@ namespace Basic_TicTacToe_program
             moves++;
             winner();
         }
-
+      
         private void btn2_Click(object sender, EventArgs e)
         {
             if (playersequence)
@@ -231,6 +239,16 @@ namespace Basic_TicTacToe_program
             btn7.Enabled = true;
             btn8.Enabled = true;
             btn9.Enabled = true;
+        }// to have a new game  
+
+        private void chkboxMusic_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkboxMusic.Checked)
+            player.Play();
+
+            else
+                player.Stop();
         }
+       
     }
 }   
