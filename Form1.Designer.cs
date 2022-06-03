@@ -49,6 +49,7 @@
             this.btnReset = new System.Windows.Forms.Button();
             this.btnNewGame = new System.Windows.Forms.Button();
             this.chkboxMusic = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -294,12 +295,24 @@
             this.chkboxMusic.UseVisualStyleBackColor = true;
             this.chkboxMusic.CheckedChanged += new System.EventHandler(this.chkboxMusic_CheckedChanged);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.DarkGray;
+            this.label5.Location = new System.Drawing.Point(12, 447);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(190, 14);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Created by Mahid L. Dandamun";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(25)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(430, 473);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.chkboxMusic);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.btnReset);
@@ -347,5 +360,6 @@
         private Button btnReset;
         private Button btnNewGame;
         private CheckBox chkboxMusic;
+        private Label label5;
     }
 }

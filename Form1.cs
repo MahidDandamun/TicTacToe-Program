@@ -249,6 +249,5 @@ namespace Basic_TicTacToe_program
             else
                 player.Stop();
         }
-       
     }
 }   
